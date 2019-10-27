@@ -23,9 +23,12 @@
 							Man
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a id="LakiA" class="dropdown-item" href="product.php">JacketA</a>
-							<a id="LakiB" class="dropdown-item" href="product.php">JacketB</a>
-							<a id="LakiC" class="dropdown-item" href="product.php">JacketC</a>
+							<a id="LakiA" class="dropdown-item" href="product.php">Bomber</a>
+							<a id="LakiB" class="dropdown-item" href="product.php">Varsity</a>
+							<a id="LakiC" class="dropdown-item" href="product.php">Kulit</a>
+							<a id="LakiD" class="dropdown-item" href="product.php">Parka</a>
+							<a id="LakiE" class="dropdown-item" href="product.php">Hoodie Jumper</a>
+							<a id="LakiF" class="dropdown-item" href="product.php">Hoodie Ziper</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
@@ -33,9 +36,12 @@
 							Woman
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a id="PerempuanA" class="dropdown-item" href="product.php">JacketA</a>
-							<a id="PerempuanB" class="dropdown-item" href="product.php">JacketB</a>
-							<a id="PerempuanC" class="dropdown-item" href="product.php">JacketC</a>
+							<a id="PerempuanA" class="dropdown-item" href="product.php">Bomber</a>
+							<a id="PerempuanB" class="dropdown-item" href="product.php">Varsity</a>
+							<a id="PerempuanC" class="dropdown-item" href="product.php">Kulit</a>
+							<a id="PerempuanD" class="dropdown-item" href="product.php">Parka</a>
+							<a id="PerempuanE" class="dropdown-item" href="product.php">Hoodie Jumper</a>
+							<a id="PerempuanF" class="dropdown-item" href="product.php">Hoodie Ziper</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
@@ -43,9 +49,12 @@
 							Kids
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a id="AnakA" class="dropdown-item" href="product.php">JacketA</a>
-							<a id="AnakB" class="dropdown-item" href="product.php">JacketB</a>
-							<a id="AnakC" class="dropdown-item" href="product.php">JacketC</a>
+							<a id="AnakA" class="dropdown-item" href="product.php">Bomber</a>
+							<a id="AnakB" class="dropdown-item" href="product.php">Varsity</a>
+							<a id="AnakC" class="dropdown-item" href="product.php">Kulit</a>
+							<a id="AnakD" class="dropdown-item" href="product.php">Parka</a>
+							<a id="AnakE" class="dropdown-item" href="product.php">Hoodie Jumper</a>
+							<a id="AnakF" class="dropdown-item" href="product.php">Hoodie Ziper</a>
 						</div>
 					</li>
 				</ul>

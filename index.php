@@ -30,7 +30,7 @@ include 'header.php';
 </div>
 <div class="container">
 	<h3 class="text-center" style="margin: 20px 0">New Item</h3>
-	<div class="row">
+	<div class="row" style="padding-bottom: 16px;">
 		<div class="col-lg-3 col-md-6 col-sm-12">
 			<div class="card">
 				<img src="http://placehold.it/800x600" class="card-img-top" alt="...">
@@ -115,6 +115,7 @@ include 'header.php';
 		</div>
 	</div>
 </div>
+
 <?php
 include 'footer.php';
 ?>
