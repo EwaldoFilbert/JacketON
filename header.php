@@ -18,45 +18,25 @@
 			</div>
 			<div class="mx-auto order-0">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Man
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a id="LakiA" class="dropdown-item" href="product.php">Bomber</a>
-							<a id="LakiB" class="dropdown-item" href="product.php">Varsity</a>
-							<a id="LakiC" class="dropdown-item" href="product.php">Kulit</a>
-							<a id="LakiD" class="dropdown-item" href="product.php">Parka</a>
-							<a id="LakiE" class="dropdown-item" href="product.php">Hoodie Jumper</a>
-							<a id="LakiF" class="dropdown-item" href="product.php">Hoodie Ziper</a>
-						</div>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Woman
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a id="PerempuanA" class="dropdown-item" href="product.php">Bomber</a>
-							<a id="PerempuanB" class="dropdown-item" href="product.php">Varsity</a>
-							<a id="PerempuanC" class="dropdown-item" href="product.php">Kulit</a>
-							<a id="PerempuanD" class="dropdown-item" href="product.php">Parka</a>
-							<a id="PerempuanE" class="dropdown-item" href="product.php">Hoodie Jumper</a>
-							<a id="PerempuanF" class="dropdown-item" href="product.php">Hoodie Ziper</a>
-						</div>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Kids
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a id="AnakA" class="dropdown-item" href="product.php">Bomber</a>
-							<a id="AnakB" class="dropdown-item" href="product.php">Varsity</a>
-							<a id="AnakC" class="dropdown-item" href="product.php">Kulit</a>
-							<a id="AnakD" class="dropdown-item" href="product.php">Parka</a>
-							<a id="AnakE" class="dropdown-item" href="product.php">Hoodie Jumper</a>
-							<a id="AnakF" class="dropdown-item" href="product.php">Hoodie Ziper</a>
-						</div>
-					</li>
+					<?php
+						$conn = new mysqli('localhost', 'root', '', 'jacketon');
+						
+						$sql = "SELECT * FROM kategori";
+						$query = $conn->query($sql);
+						$sql1 = "SELECT * FROM kategori_jaket";
+						
+						while($row = $query->fetch_assoc()){
+						echo"<li class='nav-item dropdown'>";
+							echo "<a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>".$row['nama_kategori']."</a>";
+							echo"<div class='dropdown-menu' aria-labelledby='navbarDropdown'>";
+							$query1 = $conn->query($sql1);
+								while($row1 = $query1->fetch_assoc()){
+									echo "<a class='dropdown-item' href='product.php'>".$row1['kategorijaket_nama']."</a>";
+								}
+							echo"</div>";
+						echo"</li>";
+						}
+			 		?>
 				</ul>
 			</div>
 			<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
