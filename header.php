@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Title</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css/jquery.miniColors.css" />
 </head>
 <body>
 	<header>
@@ -37,15 +38,18 @@
 						echo"</li>";
 						}
 			 		?>
+					<li class="nav-item">
+						<a class="nav-link" href="Custom.php">Custom</a>
+					</li>
 				</ul>
 			</div>
 			<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<button class="btn btn-primary">Login</button>
+						<a href="login.php" class="btn btn-primary">Login</a>
 					</li>
 					<li class="nav-item">
-						<button class="btn btn-primary">SignUp</button>
+						<a href="SignUp.php" class="btn btn-primary">SignUp</a>
 					</li>
 				</ul>
 			</div>
