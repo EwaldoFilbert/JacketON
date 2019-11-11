@@ -57,13 +57,39 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Nama Produk</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+		  <div class="row">
+		  	<div class="col-6">
+				<img src="img/Cowo/HoodieZipperBabyPink.jpg" class="card-img-top" alt="...">
+			</div>
+			<div class="col-6">
+				<h5>Nama Produk</h5>
+				<h6>Harga : Rp.60.000</h6><br>
+				<p>Jumlah : <input type="number" name="quantity" min="1" max="10"></p><br>
+				<p>Ukuran : <select>
+  							<option value="s">S</option>
+  							<option value="m">M</option>
+  							<option value="l">L</option>
+							</select>
+				</p>
+            </div>
+		  </div>
+		  <br>
+		  <div class="row">
+		  	<div class="col-12">
+				<h5>Deskripsi Produk</h5>
+				<p> BAHAN : FLEECE <br> UKURAN : L, XL, XXL <br> DETAIL UKURAN :
+					( Lebar x Panjang x Panjang Lengan ) <br>
+					L = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm) <br>
+					XL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm) <br>
+					XXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)</p>
+			</div>
+		  </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
