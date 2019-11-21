@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 11, 2019 at 11:18 PM
+-- Generation Time: Nov 21, 2019 at 09:31 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.12
 
@@ -65,12 +65,15 @@ CREATE TABLE `jaket` (
 --
 
 INSERT INTO `jaket` (`id_jaket`, `nama`, `deskripsi`, `harga`, `quantity`, `tanggal_masuk`, `kategori_id`, `kategorijaket_id`, `gambar`) VALUES
-(1, 'Hoodie Zipper Abu Tua', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-01', 1, 6, 'img/Cowo/HoodieZipperAbuTua.jpg'),
-(2, 'Hoodie Zipper Pink', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 65000, 50, '2019-11-11', 1, 6, 'img/Cowo/HoodieZipperBabyPink.jpg'),
-(3, 'Hoodie Zipper Hijau', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-10', 1, 6, 'img/Cowo/HoodieZipperHijau.jpg'),
-(4, 'Hoodie Zipper Merah', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-05', 1, 6, 'img/Cowo/HoodieZipperMerah.jpg'),
+(1, 'Hoodie Zipper Abu Tua', 'BAHAN : FLEECE 1\r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-01', 1, 6, 'img/Cowo/HoodieZipperAbuTua.jpg'),
+(2, 'Hoodie Zipper Pink', 'BAHAN : FLEECE 2\r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 65000, 50, '2019-11-11', 1, 6, 'img/Cowo/HoodieZipperBabyPink.jpg'),
+(3, 'Hoodie Zipper Hijau', 'BAHAN : FLEECE 3\r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-10', 1, 6, 'img/Cowo/HoodieZipperHijau.jpg'),
+(4, 'Hoodie Zipper Merah', 'BAHAN : FLEECE 4\r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-05', 1, 6, 'img/Cowo/HoodieZipperMerah.jpg'),
 (5, 'Hoodie Zipper Mocca', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 63000, 50, '2019-11-09', 1, 6, 'img/Cowo/HoodieZipperMocca.jpg'),
-(6, 'Hoodie Zipper Biru', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-05', 1, 6, 'img/Cowo/HoodieZipperBiru.jpg');
+(6, 'Hoodie Zipper Biru', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-05', 1, 6, 'img/Cowo/HoodieZipperBiru.jpg'),
+(7, 'Hoodie Jumper Fleece', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 70000, 50, '2019-11-01', 1, 5, 'img/Cowo/hmgoepprod (1).jpg'),
+(8, 'Hoodie Jumper Fleece 2', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-08', 1, 4, 'img/Cowo/hmgoepprod (2).jpg'),
+(9, 'Hoodie Jumper Fleece 3', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 65000, 50, '2019-11-09', 1, 3, 'img/Cowo/hmgoepprod (3).jpg');
 
 -- --------------------------------------------------------
 
@@ -118,20 +121,6 @@ INSERT INTO `kategori_jaket` (`kategorijaket_id`, `kategorijaket_nama`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `transaksi`
---
-
-CREATE TABLE `transaksi` (
-  `id_transaksi` int(11) NOT NULL,
-  `kode_transaksi` int(11) NOT NULL,
-  `id_user` int(11) NOT NULL,
-  `tanggal_transaksi` datetime NOT NULL,
-  `total_harga` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `user`
 --
 
@@ -172,12 +161,6 @@ ALTER TABLE `kategori_jaket`
   ADD PRIMARY KEY (`kategorijaket_id`);
 
 --
--- Indexes for table `transaksi`
---
-ALTER TABLE `transaksi`
-  ADD PRIMARY KEY (`id_transaksi`);
-
---
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
@@ -197,19 +180,13 @@ ALTER TABLE `carousel`
 -- AUTO_INCREMENT for table `jaket`
 --
 ALTER TABLE `jaket`
-  MODIFY `id_jaket` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_jaket` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `kategori_jaket`
 --
 ALTER TABLE `kategori_jaket`
   MODIFY `kategorijaket_id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-
---
--- AUTO_INCREMENT for table `transaksi`
---
-ALTER TABLE `transaksi`
-  MODIFY `id_transaksi` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `user`
