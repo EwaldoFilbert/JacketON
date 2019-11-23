@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 21, 2019 at 09:31 PM
+-- Generation Time: Nov 23, 2019 at 09:16 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.12
 
@@ -73,7 +73,14 @@ INSERT INTO `jaket` (`id_jaket`, `nama`, `deskripsi`, `harga`, `quantity`, `tang
 (6, 'Hoodie Zipper Biru', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-05', 1, 6, 'img/Cowo/HoodieZipperBiru.jpg'),
 (7, 'Hoodie Jumper Fleece', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 70000, 50, '2019-11-01', 1, 5, 'img/Cowo/hmgoepprod (1).jpg'),
 (8, 'Hoodie Jumper Fleece 2', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-08', 1, 4, 'img/Cowo/hmgoepprod (2).jpg'),
-(9, 'Hoodie Jumper Fleece 3', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 65000, 50, '2019-11-09', 1, 3, 'img/Cowo/hmgoepprod (3).jpg');
+(9, 'Hoodie Jumper Fleece 3', 'BAHAN : FLEECE \r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 65000, 50, '2019-11-09', 1, 3, 'img/Cowo/hmgoepprod (3).jpg'),
+(10, 'Hoodie Zipper Abu Tua 2', 'BAHAN : FLEECE 2\r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 63000, 50, '2019-11-08', 1, 6, 'img/Cowo/hmgoepprod (4).jpg'),
+(11, 'Hoodie Zipper Abu Tua 3', 'BAHAN : FLEECE 2\r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 65000, 50, '2019-11-11', 1, 6, 'img/Cowo/hmgoepprod (5).jpg'),
+(12, 'Hoodie Zipper Abu Tua 4', 'BAHAN : FLEECE 2\r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 70000, 50, '2019-11-08', 1, 6, 'img/Cowo/hmgoepprod (6).jpg'),
+(13, 'Hoodie Zipper Abu Tua5', 'BAHAN : FLEECE 2\r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 60000, 50, '2019-11-11', 1, 6, 'img/Cowo/hmgoepprod (6).jpg'),
+(14, 'Hoodie Zipper Abu Tua6', 'BAHAN : FLEECE 2\r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 70000, 50, '2019-11-11', 1, 6, 'img/Cowo/hmgoepprod (7).jpg'),
+(15, 'Hoodie Zipper Abu Tua 7', 'BAHAN : FLEECE 2\r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 65000, 50, '2019-11-08', 1, 6, 'img/Cowo/hmgoepprod (8).jpg'),
+(16, 'Hoodie Zipper Abu Tua 8', 'BAHAN : FLEECE 2\r\nUKURAN : L, XL, XXL\r\nDETAIL UKURAN :\r\n( Lebar x Panjang x Panjang Lengan )\r\nL = 55cm x 65cm x 56cm  (Pria/Wanita Tinggi MAX 170cm)\r\nXL = 57cm x 67cm x 58cm (Pria/Wanita Tinggi MAX 175cm)\r\nXXL = 60cm x 70cm x 60cm (Pria/Wanita Tinggi MAX 180cm)', 70000, 50, '2019-11-11', 1, 6, 'img/Cowo/hmgoepprod (9).jpg');
 
 -- --------------------------------------------------------
 
@@ -180,7 +187,7 @@ ALTER TABLE `carousel`
 -- AUTO_INCREMENT for table `jaket`
 --
 ALTER TABLE `jaket`
-  MODIFY `id_jaket` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id_jaket` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `kategori_jaket`

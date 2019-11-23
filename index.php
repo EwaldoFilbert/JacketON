@@ -40,20 +40,21 @@ include 'header.php';
 	<h3 class="text-center" style="margin: 20px 0">New Item</h3>
 	<div class="row" style="padding-bottom: 16px;">
 		<?php	
-
-		
 		$query ="SELECT * FROM jaket ORDER BY date(tanggal_masuk) desc LIMIT 8";
 		$result = $conn->query($query);
 		while ($row = $result->fetch_assoc()) {
+			$id_jaket = $row['id_jaket'];
 			$nama = $row['nama'];
 			$gambar = $row['gambar'];
 			$deskripsi = $row['deskripsi'];
 			$quantity = $row['quantity'];
 			$harga = $row['harga'];
-			echo '<div class="col-lg-3 col-md-6 col-sm-12"  style="padding:15px" >';
-			echo '<div class="card">';
-				echo '<img src="'.$gambar.'" class="card-img-top" alt="..." style="width:253px; height:253px">';
-				echo '<div class="card-body">';
+		?>
+		<div class="col-lg-3 col-md-6 col-sm-12"  style="padding:15px" >
+			<div class="card">
+				<img src="<?php echo $gambar ?>" class="card-img-top" alt="..." style="width:253px; height:253px">
+				<div class="card-body">
+				<?php
 				$string1 = strlen($nama);
 				if($string1 > 21){
 					echo '<h5 class="card-title">'.substr($nama,0,20).'</h5>';
@@ -67,54 +68,54 @@ include 'header.php';
 				} else{
 					echo '<p class="card-text">'.$deskripsi.'</p>';
 				}
-					
-					
-				echo '<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#Modalindex">Cek Produk</a>';
-				echo '</div>';
-			echo '</div>';
-			echo '</div>';
-			
-			echo '<div class="modal fade" id="Modalindex" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">';
-  			echo '<div class="modal-dialog" role="document">';
-    			echo '<div class="modal-content">';
-      			echo '<div class="modal-header">';
-        			echo '<h5 class="modal-title" id="exampleModalLabel"> '.$nama.' </h5>';
-        			echo '<button type="button" class="close" data-dismiss="modal" aria-	label="Close"> <span aria-hidden="true">&times;</span></button>';
-      			echo '</div>';
-      			echo '<div class="modal-body">';
-		  			echo '<div class="row">';
-		  				echo '<div class="col-6">';
-							echo '<img src="'.$gambar.'" class="card-img-top" alt="...">';
-						echo '</div>';
-					echo '<div class="col-6">';
-						echo '<h5>'.$nama.'</h5>';
-						echo '<h6>Harga : '.$harga .'</h6><br>';
-						echo '<p>Sisa Stock : '.$quantity.'</p><br>';
-						echo '<p>Ukuran : <select>
-  								<option value="s">S</option>
-  								<option value="m">M</option>
-  								<option value="l">L</option>
-								</select>
-								</p>';
-            			echo '</div>';
-		  			echo '</div>';
-		  			echo '<br>';
-		  			echo '<div class="row">';
-		  				echo '<div class="col-12">';
-							echo '<h5>Deskripsi Produk</h5>';
-							echo $deskripsi;
-						echo '</div>';
-		  			echo '</div>';
-      			echo '</div>';
-      			echo '<div class="modal-footer">';
-        			echo '<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>';
-				echo '</div>';
-				echo '</div>';
-  			echo '</div>';
-			echo '</div>';
-			}
-
-		?>
+							
+				echo '<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#index'.$id_jaket.'">Detail Produk</a>'
+				?>	
+				</div>	
+			</div>
+			</div>
+			<?php
+			echo '<div class="modal fade" id="index'.$id_jaket.'" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">';
+			?>
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel"> <?php echo $nama ?> </h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times</span></button>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-6">
+								<img src="<?php echo $gambar ?>" class="card-img-top" alt="...">
+								</div>
+							<div class="col-6">
+								<h5><?php echo $nama ?></h5>
+								<h6>Harga : <?php echo $harga ?></h6><br>
+								<p>Sisa Stock : <?php echo $quantity ?></p><br>
+								<p>Ukuran : <select>
+									<option value="s">S</option>
+									<option value="m">M</option>
+									<option value="l">L</option>
+									</select>
+								</p>
+							</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-12">
+									<h5>Deskripsi Produk</h5>
+									<?php echo $deskripsi ?>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+					</div>
+			<?php }; ?>
+		
 	</div>
 </div>
 			
